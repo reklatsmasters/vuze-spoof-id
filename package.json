@@ -1,0 +1,33 @@
+{
+  "name": "vuze-spoof-id",
+  "version": "0.0.0",
+  "description": "spoof_id generator for vuze",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape test.js",
+    "cover": "istanbul cover -x test* node_modules/tape/bin/tape test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/reklatsmasters/vuze-spoof-id.git"
+  },
+  "keywords": [
+    "vuze",
+    "dht",
+    "torrent",
+    "bittorrent"
+  ],
+  "author": "Dmitry Tsvettsikh <me@reklatsmasters.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/reklatsmasters/vuze-spoof-id/issues"
+  },
+  "homepage": "https://github.com/reklatsmasters/vuze-spoof-id#readme",
+  "dependencies": {
+    "hat": "0.0.3",
+    "ipaddr.js": "^1.1.0"
+  },
+  "devDependencies": {
+    "tape": "^4.4.0"
+  }
+}
